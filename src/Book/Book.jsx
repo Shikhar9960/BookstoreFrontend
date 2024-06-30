@@ -6,12 +6,12 @@ import Footer from '../components/Footer'
 const Book = () => {
   return (
     <>
-     <Navbar/>
-     <div className='min-h-screen'>
-      <Books/>
-     </div>
-     
-     <Footer/> 
+      <Navbar />
+      <div className='min-h-screen'>
+        <Books />
+      </div>
+
+      <Footer />
     </>
   )
 }

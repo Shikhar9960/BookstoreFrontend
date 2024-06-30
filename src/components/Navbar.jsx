@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Login from './Login'
 import { useAuth } from '../Context/Authprovider'
 import Logout from './Logout'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   const [authUser, setAuthUser] = useAuth()
@@ -39,7 +40,7 @@ function Navbar() {
               <li><a href='/'>HOME</a></li>
 
               <li><a href='/Book'>BOOKS</a></li>
-              <li><a href='/Contact'>CONTACT</a></li>
+              <li><Link to='/Contact'>CONTACT</Link></li>
 
               <li><a href='/About'>ABOUT</a></li>
             </ul>
@@ -53,7 +54,7 @@ function Navbar() {
               <li><a href='/'>HOME</a></li>
 
               <li><a href='/Book'>BOOKS</a></li>
-              <li><a href='/Contact'>CONTACT</a></li>
+              <li><Link to='/Contact'>CONTACT</Link></li>
 
               <li><a href='/About'>ABOUT</a></li>
             </ul>
