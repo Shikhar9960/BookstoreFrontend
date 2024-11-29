@@ -10,7 +10,7 @@ const ContactUs = () => {
   const [message, setMessage] = useState("");
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "8303279507"; // Replace with your WhatsApp phone number
+    const phoneNumber = "+918303279507"; // Replace with your WhatsApp phone number
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
     )}`;

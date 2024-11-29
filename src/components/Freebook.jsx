@@ -29,7 +29,7 @@ const Freebook = () => {
     speed: 200,
     slidesToShow: 3,
     slidesToScroll: 3,
-    initialSlide: 0,
+    initialSlide: 1,
     responsive: [
       {
         breakpoint: 1024,
