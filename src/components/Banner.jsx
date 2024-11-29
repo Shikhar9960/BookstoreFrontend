@@ -21,7 +21,7 @@ const Banner = () => {
                 </p>
 
                 {/* Input Section */}
-                <div className="flex items-center space-x-3">
+                <div className="flex flex-col sm:flex-row items-center space-x-3">
                     <label className="input input-bordered text-black flex items-center gap-2 rounded-md px-4 py-2 outline-none shadow-lg">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-5 h-5 opacity-70">
                             <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
@@ -30,7 +30,7 @@ const Banner = () => {
                         <input type="email" className="grow text-black p-2 rounded-md" placeholder="Enter your Email" />
                     </label>
 
-                    <button className=" btn bg-yellow-500 text-black px-8 py-2 rounded-lg shadow-lg transition duration-300 hover:bg-yellow-400 transform hover:scale-105">
+                    <button className=" m-2 sm:m-0 btn bg-yellow-500 text-black px-8 py-2 rounded-lg shadow-lg transition duration-300 hover:bg-yellow-400 transform hover:scale-105">
                         Subscribe
                     </button>
                 </div>
