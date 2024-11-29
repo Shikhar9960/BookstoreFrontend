@@ -38,9 +38,8 @@ const AboutPage = () => {
                                 <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
                                     <div className="bg-gray-600 p-6 rounded-lg shadow-md text-center">
                                         <img
-                                            className="w-24 h-24 rounded-full mx-auto mb-4"
-                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzJtv72esjEWvfSpkux9LhOEGiBQ5vuR8drQ&s"
-                                            alt="Shikhar"
+                                            className="w-24 h-24 rounded-full mx-auto mb-4" alt='photo'
+                                            src="..\src\assets\shikhar.jpeg"
                                         />
                                         <h3 className="text-xl font-semibold mb-2">Shikhar</h3>
                                         <p className="text-white">Backend Developer</p>
@@ -52,8 +51,8 @@ const AboutPage = () => {
                                     <div className="bg-gray-600 p-6 rounded-lg shadow-md text-center">
                                         <img
                                             className="w-24 h-24 rounded-full mx-auto mb-4"
-                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzJtv72esjEWvfSpkux9LhOEGiBQ5vuR8drQ&s"
-                                            alt="John"
+                                            src="..\src\assets\pranshu.jpeg"
+                                           
                                         />
                                         <h3 className="text-xl font-semibold mb-2">Pranshu</h3>
                                         <p className="text-white">Hosting & Data</p>
@@ -65,7 +64,7 @@ const AboutPage = () => {
                                     <div className="bg-gray-600 p-6 rounded-lg shadow-md text-center">
                                         <img
                                             className="w-24 h-24 rounded-full mx-auto mb-4"
-                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzJtv72esjEWvfSpkux9LhOEGiBQ5vuR8drQ&s"
+                                            src="..\src\assets\suraj.jpeg"
                                             alt="Alice"
                                         />
                                         <h3 className="text-xl font-semibold mb-2">Suraj</h3>
@@ -78,7 +77,7 @@ const AboutPage = () => {
                                     <div className="bg-gray-600 p-6 rounded-lg shadow-md text-center">
                                         <img
                                             className="w-24 h-24 rounded-full mx-auto mb-4"
-                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzJtv72esjEWvfSpkux9LhOEGiBQ5vuR8drQ&s"
+                                            src="..\src\assets\saif.jpeg"
                                             alt="New Team Member"
                                         />
                                         <h3 className="text-xl font-semibold mb-2">Saif</h3>
